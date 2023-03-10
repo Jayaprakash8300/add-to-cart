@@ -1,13 +1,15 @@
-function Footer(){
-    return(
-        <footer className="sticky-footer bg-white">
-            <div className="container my-auto">
-                <div className="copyright text-center my-auto">
-                    <span>Copyright &copy; Your Website 2021</span>
-                </div>
-            </div>
-        </footer>
-    )
+import React from 'react';
+function Footer() {
+    return (
+    <>
+    <div className="container-fluid bg-dark text-white ">
+  <div className="jumbotron p-5">
+    <p>Copyright © Your Website 2022</p>
+  </div>
+
+</div>
+    
+    </>  );
 }
 
-export default Footer
+export default Footer;
